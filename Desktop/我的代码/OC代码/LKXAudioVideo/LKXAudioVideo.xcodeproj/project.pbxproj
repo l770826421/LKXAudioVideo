@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16994543251742830072C51C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16994542251742830072C51C /* AppDelegate.m */; };
+		16994546251742830072C51C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16994545251742830072C51C /* SceneDelegate.m */; };
+		16994549251742830072C51C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16994548251742830072C51C /* ViewController.m */; };
+		1699454C251742830072C51C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1699454A251742830072C51C /* Main.storyboard */; };
+		1699454E251742850072C51C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1699454D251742850072C51C /* Assets.xcassets */; };
+		16994551251742850072C51C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1699454F251742850072C51C /* LaunchScreen.storyboard */; };
+		16994554251742850072C51C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16994553251742850072C51C /* main.m */; };
+		1699455E251742850072C51C /* LKXAudioVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1699455D251742850072C51C /* LKXAudioVideoTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1699455A251742850072C51C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16994536251742830072C51C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1699453D251742830072C51C;
+			remoteInfo = LKXAudioVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1699453E251742830072C51C /* LKXAudioVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKXAudioVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16994541251742830072C51C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		16994542251742830072C51C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		16994544251742830072C51C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		16994545251742830072C51C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		16994547251742830072C51C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		16994548251742830072C51C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1699454B251742830072C51C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1699454D251742850072C51C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16994550251742850072C51C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		16994552251742850072C51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16994553251742850072C51C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		16994559251742850072C51C /* LKXAudioVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKXAudioVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1699455D251742850072C51C /* LKXAudioVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKXAudioVideoTests.m; sourceTree = "<group>"; };
+		1699455F251742850072C51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1699453B251742830072C51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16994556251742850072C51C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16994535251742830072C51C = {
+			isa = PBXGroup;
+			children = (
+				16994540251742830072C51C /* LKXAudioVideo */,
+				1699455C251742850072C51C /* LKXAudioVideoTests */,
+				1699453F251742830072C51C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1699453F251742830072C51C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1699453E251742830072C51C /* LKXAudioVideo.app */,
+				16994559251742850072C51C /* LKXAudioVideoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16994540251742830072C51C /* LKXAudioVideo */ = {
+			isa = PBXGroup;
+			children = (
+				16994541251742830072C51C /* AppDelegate.h */,
+				16994542251742830072C51C /* AppDelegate.m */,
+				16994544251742830072C51C /* SceneDelegate.h */,
+				16994545251742830072C51C /* SceneDelegate.m */,
+				16994547251742830072C51C /* ViewController.h */,
+				16994548251742830072C51C /* ViewController.m */,
+				1699454A251742830072C51C /* Main.storyboard */,
+				1699454D251742850072C51C /* Assets.xcassets */,
+				1699454F251742850072C51C /* LaunchScreen.storyboard */,
+				16994552251742850072C51C /* Info.plist */,
+				16994553251742850072C51C /* main.m */,
+			);
+			path = LKXAudioVideo;
+			sourceTree = "<group>";
+		};
+		1699455C251742850072C51C /* LKXAudioVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				1699455D251742850072C51C /* LKXAudioVideoTests.m */,
+				1699455F251742850072C51C /* Info.plist */,
+			);
+			path = LKXAudioVideoTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1699453D251742830072C51C /* LKXAudioVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16994562251742850072C51C /* Build configuration list for PBXNativeTarget "LKXAudioVideo" */;
+			buildPhases = (
+				1699453A251742830072C51C /* Sources */,
+				1699453B251742830072C51C /* Frameworks */,
+				1699453C251742830072C51C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LKXAudioVideo;
+			productName = LKXAudioVideo;
+			productReference = 1699453E251742830072C51C /* LKXAudioVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16994558251742850072C51C /* LKXAudioVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16994565251742850072C51C /* Build configuration list for PBXNativeTarget "LKXAudioVideoTests" */;
+			buildPhases = (
+				16994555251742850072C51C /* Sources */,
+				16994556251742850072C51C /* Frameworks */,
+				16994557251742850072C51C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1699455B251742850072C51C /* PBXTargetDependency */,
+			);
+			name = LKXAudioVideoTests;
+			productName = LKXAudioVideoTests;
+			productReference = 16994559251742850072C51C /* LKXAudioVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16994536251742830072C51C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "刘克邪";
+				TargetAttributes = {
+					1699453D251742830072C51C = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					16994558251742850072C51C = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = 1699453D251742830072C51C;
+					};
+				};
+			};
+			buildConfigurationList = 16994539251742830072C51C /* Build configuration list for PBXProject "LKXAudioVideo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16994535251742830072C51C;
+			productRefGroup = 1699453F251742830072C51C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1699453D251742830072C51C /* LKXAudioVideo */,
+				16994558251742850072C51C /* LKXAudioVideoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1699453C251742830072C51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16994551251742850072C51C /* LaunchScreen.storyboard in Resources */,
+				1699454E251742850072C51C /* Assets.xcassets in Resources */,
+				1699454C251742830072C51C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16994557251742850072C51C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1699453A251742830072C51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16994549251742830072C51C /* ViewController.m in Sources */,
+				16994543251742830072C51C /* AppDelegate.m in Sources */,
+				16994554251742850072C51C /* main.m in Sources */,
+				16994546251742830072C51C /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16994555251742850072C51C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1699455E251742850072C51C /* LKXAudioVideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1699455B251742850072C51C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1699453D251742830072C51C /* LKXAudioVideo */;
+			targetProxy = 1699455A251742850072C51C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1699454A251742830072C51C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1699454B251742830072C51C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1699454F251742850072C51C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				16994550251742850072C51C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		16994560251742850072C51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		16994561251742850072C51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16994563251742850072C51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCE8HZ4H5D;
+				INFOPLIST_FILE = LKXAudioVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = isoftstone.com.LKXAudioVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16994564251742850072C51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCE8HZ4H5D;
+				INFOPLIST_FILE = LKXAudioVideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = isoftstone.com.LKXAudioVideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16994566251742850072C51C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCE8HZ4H5D;
+				INFOPLIST_FILE = LKXAudioVideoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = isoftstone.com.LKXAudioVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKXAudioVideo.app/LKXAudioVideo";
+			};
+			name = Debug;
+		};
+		16994567251742850072C51C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CCE8HZ4H5D;
+				INFOPLIST_FILE = LKXAudioVideoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = isoftstone.com.LKXAudioVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKXAudioVideo.app/LKXAudioVideo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16994539251742830072C51C /* Build configuration list for PBXProject "LKXAudioVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16994560251742850072C51C /* Debug */,
+				16994561251742850072C51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16994562251742850072C51C /* Build configuration list for PBXNativeTarget "LKXAudioVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16994563251742850072C51C /* Debug */,
+				16994564251742850072C51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16994565251742850072C51C /* Build configuration list for PBXNativeTarget "LKXAudioVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16994566251742850072C51C /* Debug */,
+				16994567251742850072C51C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16994536251742830072C51C /* Project object */;
+}
