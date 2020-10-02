@@ -7,117 +7,152 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16994543251742830072C51C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16994542251742830072C51C /* AppDelegate.m */; };
-		16994546251742830072C51C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 16994545251742830072C51C /* SceneDelegate.m */; };
-		16994549251742830072C51C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16994548251742830072C51C /* ViewController.m */; };
-		1699454C251742830072C51C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1699454A251742830072C51C /* Main.storyboard */; };
-		1699454E251742850072C51C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1699454D251742850072C51C /* Assets.xcassets */; };
-		16994551251742850072C51C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1699454F251742850072C51C /* LaunchScreen.storyboard */; };
-		16994554251742850072C51C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 16994553251742850072C51C /* main.m */; };
-		1699455E251742850072C51C /* LKXAudioVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1699455D251742850072C51C /* LKXAudioVideoTests.m */; };
+		165057012526EC94002BEE37 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 165057002526EC94002BEE37 /* AppDelegate.m */; };
+		165057042526EC94002BEE37 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 165057032526EC94002BEE37 /* SceneDelegate.m */; };
+		165057072526EC94002BEE37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 165057062526EC94002BEE37 /* ViewController.m */; };
+		1650570A2526EC94002BEE37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165057082526EC94002BEE37 /* Main.storyboard */; };
+		1650570C2526EC98002BEE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1650570B2526EC98002BEE37 /* Assets.xcassets */; };
+		1650570F2526EC98002BEE37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1650570D2526EC98002BEE37 /* LaunchScreen.storyboard */; };
+		165057122526EC98002BEE37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 165057112526EC98002BEE37 /* main.m */; };
+		1650571C2526EC98002BEE37 /* LKXAudioVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1650571B2526EC98002BEE37 /* LKXAudioVideoTests.m */; };
+		7C59F3F9CDEBD0579E231EDA /* Pods_LKXAudioVideoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8F1AFD4D5BF6765117E70D5 /* Pods_LKXAudioVideoTests.framework */; };
+		EE8673CF337F45BC26B72437 /* Pods_LKXAudioVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 69E3B2077FEA904F2B43C929 /* Pods_LKXAudioVideo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1699455A251742850072C51C /* PBXContainerItemProxy */ = {
+		165057182526EC98002BEE37 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 16994536251742830072C51C /* Project object */;
+			containerPortal = 165056F42526EC94002BEE37 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1699453D251742830072C51C;
+			remoteGlobalIDString = 165056FB2526EC94002BEE37;
 			remoteInfo = LKXAudioVideo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1699453E251742830072C51C /* LKXAudioVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKXAudioVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		16994541251742830072C51C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		16994542251742830072C51C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		16994544251742830072C51C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		16994545251742830072C51C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		16994547251742830072C51C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		16994548251742830072C51C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		1699454B251742830072C51C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		1699454D251742850072C51C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		16994550251742850072C51C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		16994552251742850072C51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		16994553251742850072C51C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		16994559251742850072C51C /* LKXAudioVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKXAudioVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1699455D251742850072C51C /* LKXAudioVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKXAudioVideoTests.m; sourceTree = "<group>"; };
-		1699455F251742850072C51C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		165056FC2526EC94002BEE37 /* LKXAudioVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LKXAudioVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		165056FF2526EC94002BEE37 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		165057002526EC94002BEE37 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		165057022526EC94002BEE37 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		165057032526EC94002BEE37 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		165057052526EC94002BEE37 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		165057062526EC94002BEE37 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		165057092526EC94002BEE37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1650570B2526EC98002BEE37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1650570E2526EC98002BEE37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		165057102526EC98002BEE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		165057112526EC98002BEE37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		165057172526EC98002BEE37 /* LKXAudioVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LKXAudioVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1650571B2526EC98002BEE37 /* LKXAudioVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LKXAudioVideoTests.m; sourceTree = "<group>"; };
+		1650571D2526EC98002BEE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40E83E51A894B5A66843839E /* Pods-LKXAudioVideoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKXAudioVideoTests.debug.xcconfig"; path = "Target Support Files/Pods-LKXAudioVideoTests/Pods-LKXAudioVideoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		40EACCE8568472B5E32368B4 /* Pods-LKXAudioVideoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKXAudioVideoTests.release.xcconfig"; path = "Target Support Files/Pods-LKXAudioVideoTests/Pods-LKXAudioVideoTests.release.xcconfig"; sourceTree = "<group>"; };
+		69E3B2077FEA904F2B43C929 /* Pods_LKXAudioVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKXAudioVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDEB66AC0914C1EC8B11242E /* Pods-LKXAudioVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKXAudioVideo.debug.xcconfig"; path = "Target Support Files/Pods-LKXAudioVideo/Pods-LKXAudioVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		EB407B28E305E6555BE104EE /* Pods-LKXAudioVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LKXAudioVideo.release.xcconfig"; path = "Target Support Files/Pods-LKXAudioVideo/Pods-LKXAudioVideo.release.xcconfig"; sourceTree = "<group>"; };
+		F8F1AFD4D5BF6765117E70D5 /* Pods_LKXAudioVideoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LKXAudioVideoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1699453B251742830072C51C /* Frameworks */ = {
+		165056F92526EC94002BEE37 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8673CF337F45BC26B72437 /* Pods_LKXAudioVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16994556251742850072C51C /* Frameworks */ = {
+		165057142526EC98002BEE37 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C59F3F9CDEBD0579E231EDA /* Pods_LKXAudioVideoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		16994535251742830072C51C = {
+		165056F32526EC94002BEE37 = {
 			isa = PBXGroup;
 			children = (
-				16994540251742830072C51C /* LKXAudioVideo */,
-				1699455C251742850072C51C /* LKXAudioVideoTests */,
-				1699453F251742830072C51C /* Products */,
+				165056FE2526EC94002BEE37 /* LKXAudioVideo */,
+				1650571A2526EC98002BEE37 /* LKXAudioVideoTests */,
+				165056FD2526EC94002BEE37 /* Products */,
+				FEADF11FEC589E7FF5154482 /* Pods */,
+				80F8DB19296D59B740C4A2F2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		1699453F251742830072C51C /* Products */ = {
+		165056FD2526EC94002BEE37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1699453E251742830072C51C /* LKXAudioVideo.app */,
-				16994559251742850072C51C /* LKXAudioVideoTests.xctest */,
+				165056FC2526EC94002BEE37 /* LKXAudioVideo.app */,
+				165057172526EC98002BEE37 /* LKXAudioVideoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		16994540251742830072C51C /* LKXAudioVideo */ = {
+		165056FE2526EC94002BEE37 /* LKXAudioVideo */ = {
 			isa = PBXGroup;
 			children = (
-				16994541251742830072C51C /* AppDelegate.h */,
-				16994542251742830072C51C /* AppDelegate.m */,
-				16994544251742830072C51C /* SceneDelegate.h */,
-				16994545251742830072C51C /* SceneDelegate.m */,
-				16994547251742830072C51C /* ViewController.h */,
-				16994548251742830072C51C /* ViewController.m */,
-				1699454A251742830072C51C /* Main.storyboard */,
-				1699454D251742850072C51C /* Assets.xcassets */,
-				1699454F251742850072C51C /* LaunchScreen.storyboard */,
-				16994552251742850072C51C /* Info.plist */,
-				16994553251742850072C51C /* main.m */,
+				165056FF2526EC94002BEE37 /* AppDelegate.h */,
+				165057002526EC94002BEE37 /* AppDelegate.m */,
+				165057022526EC94002BEE37 /* SceneDelegate.h */,
+				165057032526EC94002BEE37 /* SceneDelegate.m */,
+				165057052526EC94002BEE37 /* ViewController.h */,
+				165057062526EC94002BEE37 /* ViewController.m */,
+				165057082526EC94002BEE37 /* Main.storyboard */,
+				1650570B2526EC98002BEE37 /* Assets.xcassets */,
+				1650570D2526EC98002BEE37 /* LaunchScreen.storyboard */,
+				165057102526EC98002BEE37 /* Info.plist */,
+				165057112526EC98002BEE37 /* main.m */,
 			);
 			path = LKXAudioVideo;
 			sourceTree = "<group>";
 		};
-		1699455C251742850072C51C /* LKXAudioVideoTests */ = {
+		1650571A2526EC98002BEE37 /* LKXAudioVideoTests */ = {
 			isa = PBXGroup;
 			children = (
-				1699455D251742850072C51C /* LKXAudioVideoTests.m */,
-				1699455F251742850072C51C /* Info.plist */,
+				1650571B2526EC98002BEE37 /* LKXAudioVideoTests.m */,
+				1650571D2526EC98002BEE37 /* Info.plist */,
 			);
 			path = LKXAudioVideoTests;
+			sourceTree = "<group>";
+		};
+		80F8DB19296D59B740C4A2F2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				69E3B2077FEA904F2B43C929 /* Pods_LKXAudioVideo.framework */,
+				F8F1AFD4D5BF6765117E70D5 /* Pods_LKXAudioVideoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FEADF11FEC589E7FF5154482 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDEB66AC0914C1EC8B11242E /* Pods-LKXAudioVideo.debug.xcconfig */,
+				EB407B28E305E6555BE104EE /* Pods-LKXAudioVideo.release.xcconfig */,
+				40E83E51A894B5A66843839E /* Pods-LKXAudioVideoTests.debug.xcconfig */,
+				40EACCE8568472B5E32368B4 /* Pods-LKXAudioVideoTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1699453D251742830072C51C /* LKXAudioVideo */ = {
+		165056FB2526EC94002BEE37 /* LKXAudioVideo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16994562251742850072C51C /* Build configuration list for PBXNativeTarget "LKXAudioVideo" */;
+			buildConfigurationList = 165057202526EC98002BEE37 /* Build configuration list for PBXNativeTarget "LKXAudioVideo" */;
 			buildPhases = (
-				1699453A251742830072C51C /* Sources */,
-				1699453B251742830072C51C /* Frameworks */,
-				1699453C251742830072C51C /* Resources */,
+				DE9ED80AE7685E477C877A9B /* [CP] Check Pods Manifest.lock */,
+				165056F82526EC94002BEE37 /* Sources */,
+				165056F92526EC94002BEE37 /* Frameworks */,
+				165056FA2526EC94002BEE37 /* Resources */,
+				CED840AE3130817BB4245973 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,46 +160,47 @@
 			);
 			name = LKXAudioVideo;
 			productName = LKXAudioVideo;
-			productReference = 1699453E251742830072C51C /* LKXAudioVideo.app */;
+			productReference = 165056FC2526EC94002BEE37 /* LKXAudioVideo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		16994558251742850072C51C /* LKXAudioVideoTests */ = {
+		165057162526EC98002BEE37 /* LKXAudioVideoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16994565251742850072C51C /* Build configuration list for PBXNativeTarget "LKXAudioVideoTests" */;
+			buildConfigurationList = 165057232526EC98002BEE37 /* Build configuration list for PBXNativeTarget "LKXAudioVideoTests" */;
 			buildPhases = (
-				16994555251742850072C51C /* Sources */,
-				16994556251742850072C51C /* Frameworks */,
-				16994557251742850072C51C /* Resources */,
+				936AD0F336D498B4B68FFBEB /* [CP] Check Pods Manifest.lock */,
+				165057132526EC98002BEE37 /* Sources */,
+				165057142526EC98002BEE37 /* Frameworks */,
+				165057152526EC98002BEE37 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				1699455B251742850072C51C /* PBXTargetDependency */,
+				165057192526EC98002BEE37 /* PBXTargetDependency */,
 			);
 			name = LKXAudioVideoTests;
 			productName = LKXAudioVideoTests;
-			productReference = 16994559251742850072C51C /* LKXAudioVideoTests.xctest */;
+			productReference = 165057172526EC98002BEE37 /* LKXAudioVideoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		16994536251742830072C51C /* Project object */ = {
+		165056F42526EC94002BEE37 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = "刘克邪";
 				TargetAttributes = {
-					1699453D251742830072C51C = {
+					165056FB2526EC94002BEE37 = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
-					16994558251742850072C51C = {
+					165057162526EC98002BEE37 = {
 						CreatedOnToolsVersion = 11.2.1;
-						TestTargetID = 1699453D251742830072C51C;
+						TestTargetID = 165056FB2526EC94002BEE37;
 					};
 				};
 			};
-			buildConfigurationList = 16994539251742830072C51C /* Build configuration list for PBXProject "LKXAudioVideo" */;
+			buildConfigurationList = 165056F72526EC94002BEE37 /* Build configuration list for PBXProject "LKXAudioVideo" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -172,29 +208,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 16994535251742830072C51C;
-			productRefGroup = 1699453F251742830072C51C /* Products */;
+			mainGroup = 165056F32526EC94002BEE37;
+			productRefGroup = 165056FD2526EC94002BEE37 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1699453D251742830072C51C /* LKXAudioVideo */,
-				16994558251742850072C51C /* LKXAudioVideoTests */,
+				165056FB2526EC94002BEE37 /* LKXAudioVideo */,
+				165057162526EC98002BEE37 /* LKXAudioVideoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1699453C251742830072C51C /* Resources */ = {
+		165056FA2526EC94002BEE37 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16994551251742850072C51C /* LaunchScreen.storyboard in Resources */,
-				1699454E251742850072C51C /* Assets.xcassets in Resources */,
-				1699454C251742830072C51C /* Main.storyboard in Resources */,
+				1650570F2526EC98002BEE37 /* LaunchScreen.storyboard in Resources */,
+				1650570C2526EC98002BEE37 /* Assets.xcassets in Resources */,
+				1650570A2526EC94002BEE37 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16994557251742850072C51C /* Resources */ = {
+		165057152526EC98002BEE37 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -203,49 +239,113 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		936AD0F336D498B4B68FFBEB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LKXAudioVideoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CED840AE3130817BB4245973 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LKXAudioVideo/Pods-LKXAudioVideo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LKXAudioVideo/Pods-LKXAudioVideo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LKXAudioVideo/Pods-LKXAudioVideo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE9ED80AE7685E477C877A9B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LKXAudioVideo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		1699453A251742830072C51C /* Sources */ = {
+		165056F82526EC94002BEE37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16994549251742830072C51C /* ViewController.m in Sources */,
-				16994543251742830072C51C /* AppDelegate.m in Sources */,
-				16994554251742850072C51C /* main.m in Sources */,
-				16994546251742830072C51C /* SceneDelegate.m in Sources */,
+				165057072526EC94002BEE37 /* ViewController.m in Sources */,
+				165057012526EC94002BEE37 /* AppDelegate.m in Sources */,
+				165057122526EC98002BEE37 /* main.m in Sources */,
+				165057042526EC94002BEE37 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		16994555251742850072C51C /* Sources */ = {
+		165057132526EC98002BEE37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1699455E251742850072C51C /* LKXAudioVideoTests.m in Sources */,
+				1650571C2526EC98002BEE37 /* LKXAudioVideoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1699455B251742850072C51C /* PBXTargetDependency */ = {
+		165057192526EC98002BEE37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1699453D251742830072C51C /* LKXAudioVideo */;
-			targetProxy = 1699455A251742850072C51C /* PBXContainerItemProxy */;
+			target = 165056FB2526EC94002BEE37 /* LKXAudioVideo */;
+			targetProxy = 165057182526EC98002BEE37 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		1699454A251742830072C51C /* Main.storyboard */ = {
+		165057082526EC94002BEE37 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				1699454B251742830072C51C /* Base */,
+				165057092526EC94002BEE37 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		1699454F251742850072C51C /* LaunchScreen.storyboard */ = {
+		1650570D2526EC98002BEE37 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				16994550251742850072C51C /* Base */,
+				1650570E2526EC98002BEE37 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -253,7 +353,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		16994560251742850072C51C /* Debug */ = {
+		1650571E2526EC98002BEE37 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -311,7 +411,7 @@
 			};
 			name = Debug;
 		};
-		16994561251742850072C51C /* Release */ = {
+		1650571F2526EC98002BEE37 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -363,8 +463,9 @@
 			};
 			name = Release;
 		};
-		16994563251742850072C51C /* Debug */ = {
+		165057212526EC98002BEE37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDEB66AC0914C1EC8B11242E /* Pods-LKXAudioVideo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -374,14 +475,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = isoftstone.com.LKXAudioVideo;
+				PRODUCT_BUNDLE_IDENTIFIER = person.lkx.LKXAudioVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		16994564251742850072C51C /* Release */ = {
+		165057222526EC98002BEE37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB407B28E305E6555BE104EE /* Pods-LKXAudioVideo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -391,14 +493,15 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = isoftstone.com.LKXAudioVideo;
+				PRODUCT_BUNDLE_IDENTIFIER = person.lkx.LKXAudioVideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		16994566251742850072C51C /* Debug */ = {
+		165057242526EC98002BEE37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40E83E51A894B5A66843839E /* Pods-LKXAudioVideoTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -410,15 +513,16 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = isoftstone.com.LKXAudioVideoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = person.lkx.LKXAudioVideoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKXAudioVideo.app/LKXAudioVideo";
 			};
 			name = Debug;
 		};
-		16994567251742850072C51C /* Release */ = {
+		165057252526EC98002BEE37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40EACCE8568472B5E32368B4 /* Pods-LKXAudioVideoTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -430,7 +534,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = isoftstone.com.LKXAudioVideoTests;
+				PRODUCT_BUNDLE_IDENTIFIER = person.lkx.LKXAudioVideoTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LKXAudioVideo.app/LKXAudioVideo";
@@ -440,34 +544,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		16994539251742830072C51C /* Build configuration list for PBXProject "LKXAudioVideo" */ = {
+		165056F72526EC94002BEE37 /* Build configuration list for PBXProject "LKXAudioVideo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16994560251742850072C51C /* Debug */,
-				16994561251742850072C51C /* Release */,
+				1650571E2526EC98002BEE37 /* Debug */,
+				1650571F2526EC98002BEE37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16994562251742850072C51C /* Build configuration list for PBXNativeTarget "LKXAudioVideo" */ = {
+		165057202526EC98002BEE37 /* Build configuration list for PBXNativeTarget "LKXAudioVideo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16994563251742850072C51C /* Debug */,
-				16994564251742850072C51C /* Release */,
+				165057212526EC98002BEE37 /* Debug */,
+				165057222526EC98002BEE37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16994565251742850072C51C /* Build configuration list for PBXNativeTarget "LKXAudioVideoTests" */ = {
+		165057232526EC98002BEE37 /* Build configuration list for PBXNativeTarget "LKXAudioVideoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16994566251742850072C51C /* Debug */,
-				16994567251742850072C51C /* Release */,
+				165057242526EC98002BEE37 /* Debug */,
+				165057252526EC98002BEE37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 16994536251742830072C51C /* Project object */;
+	rootObject = 165056F42526EC94002BEE37 /* Project object */;
 }
